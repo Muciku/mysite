@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My test page</title>
+    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+  </head>
+  <body>
+      <ul class="topnav">
+          <li> <a href="#home"> Home</li></a>
+          <li><a href="#bio">Bio</li></a>
+          <li><a href="#delight">Delight</a></li>
+          <li><a href="#contact">React Out</a></li>
+        </ul>
+
+      <section id="home" class="home" style="margin: 0;">
+        <div class="container">
+          <h1>Hey</h1>
+            <div class="center">
+                <img src="images/DSC02358.jpg"  width="300px" height="300px"/>
+              <p>I am Esther ...</p>
+              </div>
+            
+        </div>
+      </section>
+      <section id="bio" class="bg-light">
+          <div id="container">
+              <h1>More about me</h1>
+              <div class="center">
+                  <p> I enjoy having a loud laugh and loving on the gifts of life. 
+                    <br/>I regard myself more of an outdoors person and enjoy nature a great deal
+                    <br/> I envision myself putting up a great company and am loving every minute in
+                  </p>
+              </div>
+          </div>
+      </section>
+      <section id="delight" class="delight">
+        <div class="container">
+            <h1>What Delights me</h1>
+            <div class="center">
+              <p>
+                <ul>Passion</ul>
+                <ul>Resilience</ul>
+                <ul>Hope</ul>
+                <ul>Thick skin and deaf ears to empty talk</ul>
+              </p>
+            </div>
+        </div>
+      </section>
+      <section id="contact" class="contact">
+        <div class="container">
+          <h1>Love to do talk</h1>
+          <div class="center">
+              <form name="myForm" onsubmit="return validateForm()">
+                  First name:<br>
+                  <input type="text" id="form-inline" class="form-inline" name="firstname"><br>
+                  Last name:<br>
+                  <input type="text" id="form-inline" class="form-inline" name="lastname"><br />
+                  <input type="submit" id="submitted"  class="submitted" value="Contact Me" />
+                </form>
+          </div>
+        </div>
+      </section>
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
